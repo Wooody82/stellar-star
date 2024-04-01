@@ -1,0 +1,28 @@
+{
+  "name": "stellar-star",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/mdx": "^2.2.2",
+    "@astrojs/netlify": "^5.2.0",
+    "@astrojs/react": "^3.1.0",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.2",
+    "@sanity/astro": "^3.0.0",
+    "@sanity/document-internationalization": "^2.1.0",
+    "@sanity/vision": "^3.36.2",
+    "astro": "^4.5.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sanity": "^3.36.2",
+    "typescript": "^5.4.3"
+  }
+}
